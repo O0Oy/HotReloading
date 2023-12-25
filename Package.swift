@@ -15,8 +15,8 @@ import Foundation
 // address of your Mac into the hostname value below.
 // Then drag the clone onto your project to have it
 // take precedence over the configured version.
-var hostname = Host.current().name ?? "localhost"
-// hostname = "192.168.0.243" // for example
+//var hostname = Host.current().name ?? "localhost"
+var hostname = "172.16.228.96" // for example
 
 let package = Package(
     name: "HotReloading",
